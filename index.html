@@ -55,9 +55,59 @@
           <input  id="state" maxlength="20" name="state" size="20" type="text" />
         </label
       </fieldset>
-      <input type="submit" name="submit">
+      <input type="submit" name="submit lead">
       
       </form>
+      <!--  ----------------------------------------------------------------------  -->
+<!--  NOTE: Please add the following <META> element to your page <HEAD>.      -->
+<!--  If necessary, please modify the charset parameter to specify the        -->
+<!--  character set of your HTML page.                                        -->
+<!--  ----------------------------------------------------------------------  -->
+<!--  ----------------------------------------------------------------------  -->
+<!--  NOTE: Please add the following <FORM> element to your page.             -->
+<!--  ----------------------------------------------------------------------  -->
+
+  <form action="https://webto.salesforce.com/servlet/servlet.WebToCase?encoding=UTF-8&orgId=00DWV000001OyNR" method="POST">
+
+      <input type=hidden name="orgid" value="00DWV000001OyNR">
+      <input type=hidden name="retURL" value="https://ffjohasaa.github.io/testjanuarsfrepo/">
+      
+      <!--  ----------------------------------------------------------------------  -->
+      <!--  NOTE: These fields are optional debugging elements. Please uncomment    -->
+      <!--  these lines if you wish to test in debug mode.                          -->
+      <!--  <input type="hidden" name="debug" value=1>                              -->
+      <!--  <input type="hidden" name="debugEmail"                                  -->
+      <!--  value="johan.saarem@stretch.no">                                        -->
+      <!--  ----------------------------------------------------------------------  -->
+      
+      <label for="name">Contact Name
+        <input  id="name" maxlength="80" name="name" size="20" type="text" />
+      </label>
+      
+      <label for="email">Email
+        <input  id="email" maxlength="80" name="email" size="20" type="text" />
+      </label>
+      
+      <label for="phone">Phone
+        <input  id="phone" maxlength="40" name="phone" size="20" type="text" />
+      </label>
+      
+      <label for="subject">Subject
+        <input  id="subject" maxlength="80" name="subject" size="20" type="text" />
+      </label>
+      
+      <label for="description">Description
+        <textarea name="description"></textarea>
+      </label>
+      
+      <input type="hidden"  id="external" name="external" value="1" /><br>
+      
+      <input type="submit" name="submit case">
+  
+    </form>
+
   </main>
+
+  
 </body>
 </html>
